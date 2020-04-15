@@ -9,7 +9,7 @@ Various ClearPass Enforcements (AOS-S, AOS-CX, AOS)
 Download (right click, Save Link/Target As) and import the enforcement of your choice > (CPPM: Configuration » Enforcement » Profiles):
 * [ArubaOS Switch](https://github.com/nowireless4u/clearpass-related/tree/master/AOS-S)
 * [Aruba CX](https://github.com/nowireless4u/clearpass-related/tree/master/AOS-CX)
-* [Aruba WIRELESS](https://github.com/nowireless4u/clearpass-related/tree/master/AOS-WLAN)
+* [Aruba Wireless](https://github.com/nowireless4u/clearpass-related/tree/master/AOS-WLAN)
 
 ## Meraki
 
