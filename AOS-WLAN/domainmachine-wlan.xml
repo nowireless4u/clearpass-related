@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Wed Apr 15 16:00:25 EDT 2020" version="6.9"/>
+  <RadiusEnfProfiles>
+    <RadiusEnfProfile description="" name="DOMAIN-MACHINE-SECGW" productVersion="1.0" product="AMC" action="Accept">
+      <AttributeList>
+        <Attribute displayValue="ip access-list session domain-machine-blocked-apps|    any any app ftp-data deny send-deny-response|    any any app ftps deny send-deny-response|    any any app ssh deny send-deny-response|    any any app telnet deny|    any any app rdp deny send-deny-response|!|ip access-list session ad-server-traffic|    user alias ad-servers any permit|!    |ip access-list session mdm-server-traffic|    user alias mdm-servers app http permit|    user alias mdm-servers app https permit|    user alias mdm-servers tcp 5223 permit|!|user-role domain-machine|access-list session user-logon-control|access-list session domain-machine-blocked-apps|access-list session ad-server-traffic|access-list session mdm-server-traffic" value="ip access-list session domain-machine-blocked-apps|    any any app ftp-data deny send-deny-response|    any any app ftps deny send-deny-response|    any any app ssh deny send-deny-response|    any any app telnet deny|    any any app rdp deny send-deny-response|!|ip access-list session ad-server-traffic|    user alias ad-servers any permit|!    |ip access-list session mdm-server-traffic|    user alias mdm-servers app http permit|    user alias mdm-servers app https permit|    user alias mdm-servers tcp 5223 permit|!|user-role domain-machine|access-list session user-logon-control|access-list session domain-machine-blocked-apps|access-list session ad-server-traffic|access-list session mdm-server-traffic" name="Aruba-CPPM-Role" type="Radius:Aruba"/>
+      </AttributeList>
+    </RadiusEnfProfile>
+  </RadiusEnfProfiles>
+</TipsContents>
