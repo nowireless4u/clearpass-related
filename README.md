@@ -18,6 +18,4 @@ Download (right click, Save Link/Target As) and import the enforcement of your c
 
 
 
-***** These are not official templates from Aruba. ***** 
-
-* These are meant to be deployed in a lab for testing in order to become familiar with Downloadable User Roles (DUR). 
+###### These are not official templates from Aruba. These are meant to be deployed in a lab for testing in order to become familiar with Downloadable User Roles (DUR). 
