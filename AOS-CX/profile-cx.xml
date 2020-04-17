@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Fri Apr 17 12:02:16 EDT 2020" version="6.9"/>
+  <RadiusEnfProfiles>
+    <RadiusEnfProfile description="" name="PROFILE-CX-SW" productVersion="1.0" product="durPluginA" action="Accept">
+      <AttributeList>
+        <Attribute displayValue="access-list ip DHCP|    10 permit udp any any eq 67|exit||access-list ip DNS|    10 permit udp any any eq 53|exit||access-list ip CLEARPASS|    10 permit ip any host 10.101.0.110|exit||access-list ip WEB-TRAFFIC|    10 match tcp any any eq 80|    20 match tcp any any eq 443|exit||port-access policy PROFILE|    10 class ip DHCP|    20 class ip DNS|    30 class ip CLEARPASS|    40 class ip WEB-TRAFFIC action redirect captive-portal||aaa authentication captive-portal profile &quot;PROFILING&quot;|url https://radius.adamslab.net/guest/profiling.php||port-access role profile|associate policy PROFILE|associate captive-portal-profile PROFILING|poe-priority low|session-timeout 30|trust-mode none|auth-mode device-mode|vlan access 104|exit" value="access-list ip DHCP|    10 permit udp any any eq 67|exit||access-list ip DNS|    10 permit udp any any eq 53|exit||access-list ip CLEARPASS|    10 permit ip any host 10.101.0.110|exit||access-list ip WEB-TRAFFIC|    10 match tcp any any eq 80|    20 match tcp any any eq 443|exit||port-access policy PROFILE|    10 class ip DHCP|    20 class ip DNS|    30 class ip CLEARPASS|    40 class ip WEB-TRAFFIC action redirect captive-portal||aaa authentication captive-portal profile &quot;PROFILING&quot;|url https://radius.adamslab.net/guest/profiling.php||port-access role profile|associate policy PROFILE|associate captive-portal-profile PROFILING|poe-priority low|session-timeout 30|trust-mode none|auth-mode device-mode|vlan access 104|exit" name="Aruba-CPPM-Role" type="Radius:Aruba"/>
+      </AttributeList>
+    </RadiusEnfProfile>
+  </RadiusEnfProfiles>
+</TipsContents>

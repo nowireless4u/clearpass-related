@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TipsContents xmlns="http://www.avendasys.com/tipsapiDefs/1.0">
+  <TipsHeader exportTime="Fri Apr 17 12:01:55 EDT 2020" version="6.9"/>
+  <RadiusEnfProfiles>
+    <RadiusEnfProfile description="" name="PROFILE-AOSS-SW" productVersion="1.0" product="HPE" action="Accept">
+      <AttributeList>
+        <Attribute displayValue="class ipv4 DHCP|10 match udp any any eq 67|exit||class ipv4 DNS|10 match udp any any eq 53|exit||class ipv4 CLEARPASS|10 match tcp any host 10.101.0.110|exit||class ipv4 HTTP|10 match tcp any any eq 80|20 match tcp any any eq 443|exit||aaa authentication captive-portal profile &quot;PROFILING&quot; url https://radius.adamslab.net/guest/profiling.php||policy user PROFILE|class ipv4 DHCP action permit|class ipv4 DNS action permit|class ipv4 CLEARPASS action permit|class ipv4 HTTP action redirect captive-portal|exit||aaa authorization user-role name PROFILE|captive-portal-profile &quot;PROFILING&quot;|policy PROFILE|vlan-name &quot;USER NETWORK&quot;|exit" value="class ipv4 DHCP|10 match udp any any eq 67|exit||class ipv4 DNS|10 match udp any any eq 53|exit||class ipv4 CLEARPASS|10 match tcp any host 10.101.0.110|exit||class ipv4 HTTP|10 match tcp any any eq 80|20 match tcp any any eq 443|exit||aaa authentication captive-portal profile &quot;PROFILING&quot; url https://radius.adamslab.net/guest/profiling.php||policy user PROFILE|class ipv4 DHCP action permit|class ipv4 DNS action permit|class ipv4 CLEARPASS action permit|class ipv4 HTTP action redirect captive-portal|exit||aaa authorization user-role name PROFILE|captive-portal-profile &quot;PROFILING&quot;|policy PROFILE|vlan-name &quot;USER NETWORK&quot;|exit" name="HPE-CPPM-Role" type="Radius:Hewlett-Packard-Enterprise"/>
+      </AttributeList>
+    </RadiusEnfProfile>
+  </RadiusEnfProfiles>
+</TipsContents>
