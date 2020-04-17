@@ -1,4 +1,6 @@
-***** These are not official templates from Aruba. These are meant to be deployed in a lab for testing in order to become familiar with Downloadable User Roles (DUR). Mileage may vary. *****
+***** These are not official templates from Aruba. ***** 
+***** These are meant to be deployed in a lab for testing in order to become familiar with Downloadable User Roles (DUR). ***** 
+***** Mileage may vary. *****
 
 # ClearPass Enforcements
 Various ClearPass Enforcements (AOS-S, AOS-CX, AOS)
