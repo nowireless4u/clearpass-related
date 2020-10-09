@@ -1,0 +1,7 @@
+#Create CSR
+openssl req -new -newkey rsa:2048 -nodes -keyout private.key -out generated.csr
+
+#Create P12
+openssl pkcs12 -export -out certificate.p12 -inkey wildcard-priv.key -in certificate.crt -certfile intermediate.crt -certfile rootca.crt
+
+
